@@ -1,0 +1,12 @@
+
+imageRegistry: northwesternmutual
+
+dockerImageTag: v1.2.3
+
+pullPolicy: Always
+
+decryptKeySecretName: kanali-key-decription
+
+kanaliConfigName: kanali-config
+
+tlsSecretName: kanali
