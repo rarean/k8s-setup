@@ -84,7 +84,7 @@ server:
     ## If defined, volume.beta.kubernetes.io/storage-class: <storageClass>
     ## Default: volume.alpha.kubernetes.io/storage-class: default
     ##
-    storageClass: "slow"
+    storageClass: rook-block
 
     ## Data Persistent Volume existing claim name
     ## Requires server.persistentVolume.enabled: true
